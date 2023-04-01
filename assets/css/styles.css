@@ -5,14 +5,11 @@ body{
     background-repeat: no-repeat;
     min-height: 100vh;
 }
-
-/*barra de navegacion, color en https://cssgradient.io/ */
 .navbar.navbar-expand-lg.bg-warning
 {
     background: rgb(207,18,18);
     background: linear-gradient(90deg, rgba(207,18,18,1) 0%, rgba(252,202,140,1) 71%, rgba(255,94,0,1) 100%);
 }
-
 i.fa-brands.fa-instagram.fa-2xl:hover,
 i.fa-brands.fa-linkedin.fa-2xl:hover,
 i.fa-brands.fa-github.fa-2xl:hover,
@@ -21,38 +18,25 @@ i.fa-solid.fa-user-lock.fa-2xl:hover/*hover, cuando pasa el mouse por arriba se 
     color: white !important;
     text-decoration: none;
 }
-
-
 .list-group{
     --bs-list-group-bg: transparent;
     --bs-list-group-border-color: transparent;
-} /*para que no tenga borde ni relleno de fondo cada
-    icono. Inspeccionar, buscar qué destildamos*/
-
+}
 section.about{
     margin-top: 10rem;
 }
-
 section.admin{
     margin-top: 10rem;
 }
-
-/*.modal-backdrop.fade{
-    --bs-backdrop-zindex: none;
-}*/
-
 section.about{
     width: 100%;
     height:100%;
-
 }
-
 @media (max-width:600px){
     body{
         background-color:gray;
     }
 }
-
 @media (min-width:600px){
     body{
         background-color:antiquewhite;
@@ -62,4 +46,3 @@ section.about{
         border-radius: 50%
     }
 }
-
