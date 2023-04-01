@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <html lang ="en">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-sca">  
+  <!-- CSS only -->
+  <!-- CSS Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- Script de Fontawesome, es JS pero va antes q termine el head -->
+  <script src="https://kit.fontawesome.com/e4c8a07d65.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <title>Profile</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/logoap3.png" alt="" width="150" height="90">
+      </a>  
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item"><a href="https://www.instagram.com/88julieta88/" target="_blank"><i class="fa-brands fa-instagram fa-2xl text-black"></i></a></li>
+        <li class="list-group-item"><a href="https://www.linkedin.com/in/julietarosende" target="_blank"><i class="fa-brands fa-linkedin fa-2xl text-black"></i></a></li>
+        <li class="list-group-item"><a href="https://github.com/Julieta1988" target="_blank"><i class="fa-brands fa-github fa-2xl text-black"></i></a></li>
+        <!-- Button que envía al login -->
+        <li class="list-group-item">
+          <i class="fa-solid fa-user-lock fa-2xl text-black" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+        </li>
+      </ul>
+      <!--cierran las redes-->
+    </nav>
+    <!-- Modal Login -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">LOGIN</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!--agregamos formulario en el modal-->
+            <div class="mb-3 row">
+              <label class="col-sm-2 col-form-label"><i class="fa-solid fa-envelope"></i>Email</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" value="email@example.com">
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label"><i class="fa-solid fa-lock"></i>Clave</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword">
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Ingresar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+  <!-- Seccion SOBRE MI, foto y descripcion-->  
+    <!-- Seccion SOBRE MI, foto y descripcion-->  
+  <section id="sobre-mi" class="about">
+    <div class="container text-center">
+    <div class="row">
+        <div class="col-lg-3">
+          <img src="assets/img/Rosende.jpg" class="img-thumbnail rounded-circle w-75" alt="..." title="...">
+        </div>
+        <div class="col-9 mt-5">
+          <h7 class="text-white text-center intro wt-5 pt-5">Soy Julieta Rosende, fan de la computadora, la tecnología, las fotografías, la naturaleza...
+            <br>Prolija, obse, detallista como todo dev.
+            <br>Cambio, muto, giro, empiezo de nuevo y allá voy buscando nuevos y desafiantes escenarios...
+            <br>Considero que el trabajo en equipo es la clave, por lo que disfruto de trabajar y propiciar un liviano y cómodo clima laboral.
+          </h7>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    </div>
+  </section>
+
+  <section id="sobre-mi" class="about">
+    <div class="container text-center">
+    <div class="row">
+        <div class="col-8 mt-4">
+          <h3>Experiencia laboral</h3>
+          <h6 class="wt-5 pt-5">
+            Analista ssr IT en Mercado Libre Mercado Libre SRL - 5 años - 2013/2018
+            <br>Neosur SA - 2008/2012 - 4 años
+          </h6>
+        </div>
+        <div class="col-lg-4">
+          <img src="assets/img/compumagia.jpg" class="img-thumbnail img-fluid" alt="..." title="...">
+        </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="sobre-mi" class="about">
+    <div class="container text-center">
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="assets/img/6208947.jpg" class="img-thumbnail img-fluid" alt="..." title="...">
+      </div>  
+      <div class="col-8 mt-4">
+        <h3>Formación académica</h3>
+        <h6 class="wt-5 pt-5">
+          Estudios en curso en UTN FRC Ingeniería en Sistemas de Información
+          <br>Curso Argentina Programa 4.0
+        </h6>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="sobre-mi" class="about">
+    <div class="container text-center">
+    <div class="row">
+      <div class="col-8">
+        <h3>Conocimientos y aptitudes</h3>
+        <h6 class="wt-5 pt-5">
+          Web Services API
+          <br>Soporte técnico
+          <br>Soporte API
+          <br>Testing
+          <br>Administración de incidencias/gestión de bugs
+          <br>Planificación, gestión y ejecución de casos de prueba
+          <br>Gestión Operativa
+          <br>Documentación técnica
+        </h6>
+      </div>
+      <div class="col-lg-4 mt-4">
+        <img src="assets/img/conocimientos.jpg" class="img-thumbnail img-fluid" alt="..." title="...">
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="sobre-mi" class="about">
+    <div class="container text-center">
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="assets/img/idioma.png" class="img-thumbnail img-fluid" alt="..." title="...">
+      </div>
+      <div class="col-8 mt-4">
+        <h3>Idioma</h3>
+        <h6 class="wt-5 pt-5">
+          Inglés - Nivel A1 (MCER)
+            <br>Portugués - Nivel A2-B1.1 (MCER)
+        </h6>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container text-center">
+    <div class="row">
+      <div class="col-4">
+      </div>
+      <div class="col-8 mt-4">
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+<!--FOOTER-->
+<footer class="bg-black text-white text-center intro fs-6">
+  <div class="text-center intro wt-3 pt-3">
+    <p>© Copyright Julieta Rosende - 2023</p>
+  </div>
+  <div class="text-center intro wt-3 pt-2">
+    <p></p>
+  </div>
+</footer>
+
+  <!-- JavaScript bundle with Popper - JS de Boostrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>

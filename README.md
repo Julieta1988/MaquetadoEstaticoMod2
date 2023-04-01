@@ -1,2 +1,0 @@
-# MaquetadoEstaticoMod2
-#hola
